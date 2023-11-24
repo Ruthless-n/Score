@@ -1,0 +1,547 @@
+body{
+    font-family: rubik;
+}
+
+/*Header*/
+
+header {
+    background-color: #FDEBDE;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    
+}
+
+#Score_header{
+    color: #E1C2AF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    text-align: center;
+    background: fixed;
+    padding-top: 12px;
+}
+
+#Fundo_Nome{
+    background-color: #E1C2AF;
+    font-family: rubik;
+    color: white;
+    width: 100%;
+    height: 30px;
+}
+
+#Nome_Usuario{
+    padding-top: 5px;
+    float: right;
+    padding-right: 30px;
+}
+
+/*Matérias*/
+
+#Todas_Materias{
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Fundo_addMateria{
+    float: left;
+    background-color: #FDEBDE;
+    font-family: rubik;
+    color: #CCA289;
+    width: 200px;
+    height: 270px;
+    padding-top: 100px;
+    padding-left: 65px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.btn_addMateria{
+    float: left;
+    border-radius: 100%;
+    padding: 2px;
+    border: none;
+    background-color: #FDEBDE;
+}
+
+.btn_addMateria:hover{
+    background-color: #CCA289;
+}
+
+.Materia_Home{
+    float: left;
+    background-color: #FDEBDE;
+    font-family: rubik;
+    color: #CCA289;
+    width: 200px;
+    height: 270px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.Materia_Home:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(241, 238, 241));
+    filter: drop-shadow(5px 5px 5px rgb(116, 116, 117));
+}
+
+.nome{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.divisor_home{
+    background-color: #CCA289;
+    width: 175px;
+    padding-top: 1.5px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.media_MinAt{
+    margin-left: 6%;
+}
+
+.valor_minimo{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    background-color: #E1C2AF;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.fundo_valorAtual{
+    padding-top: 2px;
+    background-color: #C3CDC4; /*cor para caso a pessoa esteja abaixo da media #DB9DA4*/
+    color: white;
+    height: 65px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.valor_atual{
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*Add Matéria*/
+
+#addMat_geral{
+    min-width: 600px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: rubik;
+}
+
+.nova_Mat{
+    background-color: #C3CDC4;
+    padding: px;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.fundo_dados{
+    background-color: #FDEBDE;
+    margin-top: 0px;
+    padding: 50px;
+    padding-top: 30px;
+    border-radius: 20px;
+    color: #c4967c;
+}
+
+.dados_add{
+    display: flex;
+    margin-top: 20px;
+}
+
+.notapeso_add{
+    display: flex;
+}
+
+input{
+    background-color: #E1C2AF;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    outline: none;
+}
+
+.dados_add{
+    width: 420px;
+    margin-bottom: 20px;
+}
+
+.input_add1{
+    margin-left: 70px;
+}
+
+.input_add2{
+    margin-left: 104px;
+}
+
+input::placeholder {
+    color: #faece2;
+}
+
+.input_notapeso{
+    width: 50px;
+    height: 28px;
+    margin-left: 15px;
+}
+
+/* Chrome e outros */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.text_addnota{
+    margin-right: 120px;
+}
+
+.text_addpeso{
+    margin-left: 15px;
+}
+
+.btn_addNota{
+    border: none;
+    background-color: #dbac8f;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.addNota{
+    width: 18px;
+    border-radius: 100%;
+    margin-top: 0px;
+    float: left;
+    margin: 0 auto;
+}
+
+.btn_addNota:hover{
+    background-color: #CBA690;
+}
+
+.divisor_add{
+    background-color: #CCA289;
+    width: 100%;
+    padding-top: 2px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.Notas_add{
+    width: 250px;
+}
+
+.text_notas{
+    margin-bottom: 25px;
+    background-color: #CCA289;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.btn_Feitoadd{
+    float: right;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #C3CDC4;
+    color: white;
+}
+
+.btn_Feitoadd:hover{
+    background-color: #a0b1a2;
+}
+
+/* Visualizar Materia */
+
+.Mat_Atual{
+    background-color: #C3CDC4;
+    padding: px;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.text1_vis{
+    margin-right: 35px;
+}
+
+.text2_vis{
+    background-color: #E1C2AF;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 70px;
+    width: 200px;
+}
+
+.notapeso_vis{
+    display: flex;
+}
+
+.text_notavis{
+    background-color: #E1C2AF;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.text_pesovis{
+    background-color: #E1C2AF;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+/*Login*/
+
+/* CSS reset */
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: rubik;
+}
+   
+/* remove a linha dos links */
+a{
+    text-decoration: none;
+}
+   
+/* esconde as ancoras da tela */
+a.links{
+    display: none;
+}
+
+.content{
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;   
+}
+
+h3{
+    color: #decbd1;
+    font-family: rubik;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: solid 10px #FFF3EB;
+    border-bottom: solid 20px #FFF3EB;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+p{
+    margin-bottom:15px;
+}
+   
+.content p:first-child{
+    margin: 0px;
+}
+   
+label{
+    color: #000000;
+    position: relative;
+}
+
+/*estilo do botão submit*/ 
+input[type="submit"]{
+    width: 50%!important;
+    cursor: pointer;  
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 18px;   
+    margin-bottom: 10px;  
+    margin-left: 25%;
+    margin-top: 20px;
+   
+    border-radius: 20px;
+   
+    transition: all 0.2s linear;
+}
+   
+/*estilo do botão submit no hover */
+input[type="submit"]:hover{
+    background: #CBA690;
+}
+
+.link{
+    position: absolute;
+    background: #E1C2AF;
+    color: #ffffff;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+   
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  50px 50px;
+}
+   
+.link a {
+    font-family: rubik;
+    padding: 6px;
+    color: #ffffff;
+    margin-left: 10px;
+   
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+   
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+}
+   
+.link a:hover {
+    color: #7f7c7c;  
+}
+
+#cadastro, 
+#login{
+  position: absolute;
+  top: 70px;
+  min-width: 350px;   
+  padding: 18px 6% 60px 6%;
+  background: #FFF3EB;
+  color:#c4967c;
+  margin-left: 15%;
+  margin-bottom: 50%;
+   
+  border-radius: 50px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+/* Efeito ao clicar no botão ( Ir para Login ) */
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login{
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+/* Efeito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+/*fadeInLeft*/
+@-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+}
+   
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+   
+/*fadeOutLeft*/
+@-webkit-keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+}
+   
+@keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+}
+
+#headerlogin{
+    background-color: white;
+}
+
+.inseredados_cad{
+    margin-left: 0px;
+    background-color: #ffffff;
+    color: #C3CDC4;
+    border-radius: 20px;
+}
+
+.inseredados_cad::placeholder {
+    color: #C3CDC4;
+}
+.textdados_cad{
+    margin-left: 10px;
+    width: 100px;
+    margin-right: 0px;
+}
