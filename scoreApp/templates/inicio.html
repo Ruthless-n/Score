@@ -19,12 +19,12 @@
             <h2 id="Score_header">SCORE</h2>
         </header>
         <div id="Fundo_Nome">
-            <h6 id="Nome_Usuario">Nome Usuário</h6>
+            <h6 id="Nome_Usuario">{{ usuario.username }}</h6>
         </div>
         
         <div id="Todas_Materias">
             <div class="Fundo_addMateria">
-                <button class="btn_addMateria"><img class="addCircle" src="./ImgScore/addCircle.png"/></button>
+                <button class="btn_addMateria"><img class="addCircle" src="{% static 'ImgScore/addCircle.png' %}"/></button>
             </div>
             <div class="Materia_Home">
                 <h6 class="nome">Banco de Dados</h6>
